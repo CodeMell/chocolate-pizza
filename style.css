@@ -1,4 +1,60 @@
-body{
+body {
     background-color: white;
     color: black;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    width: 50%;
+
+}
+.navLogo{
+    text-align: left;
+}
+.navA{
+    text-align: right;
+}
+
+.lineBr {
+    background-image: url(img/hr-img.png);
+    margin: auto;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+section a{
+    color: gray;
+}
+
+.cookNote {
+    display: flex;
+    background: url(img/list-bg.png) center no-repeat;
+}
+
+.cookNote div {
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+}
+
+.writer{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-bottom:2px solid black ;
+}
+.writer div{
+    text-align: left;
+    margin: auto;
+}
+.writer a{
+    padding: 15px;
+    margin: auto;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
 }
